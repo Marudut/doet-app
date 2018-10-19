@@ -1,0 +1,14 @@
+$browser-context: 14; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}
+
+
+.db-blog{
+    max-width: em(960);
+    margin: 0 auto;
+    flex-shrink: 0;
+    display: flex;
+    
+  }

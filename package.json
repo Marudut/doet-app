@@ -1,0 +1,19 @@
+{
+  "name": "doet-app",
+  "version": "1.0.0",
+  "description": "doet-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "simarmata",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
