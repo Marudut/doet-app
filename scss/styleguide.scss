@@ -1,19 +1,8 @@
-$browser-context: 14; // Default
 
-@function em($pixels, $context: $browser-context) {
-  @return #{$pixels/$context}em;
+
+.doet-blog.nav-wrapper {
+  height: 44px;
 }
-
-
-.db-blog.brand-logo{
-  padding-left: 10px;
-
-  & span a {
-    color: white;
-  }
-}
-
-
 
 @charset "UTF-8";
 
@@ -21,20 +10,21 @@ $browser-context: 14; // Default
 @import "components/color-variables";
 @import "components/color-classes";
 
-// Variables;
+// Variables
 @import "components/variables";
 
 // Reset
 @import "components/normalize";
 
+// components
 @import "components/global";
-@import "components/buttons";
+@import "components/badges";
 @import "components/icons-material-design";
-@import "components/materialbox";
 @import "components/grid";
 @import "components/navbar";
-@import "components/normalize";
 @import "components/typography";
 @import "components/transitions";
 @import "components/cards";
-@import "components/typography";
+@import "components/toast";
+@import "components/tabs";
+@import "components/forms/forms";
