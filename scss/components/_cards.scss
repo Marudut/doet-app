@@ -27,7 +27,7 @@
   }
 
   // Card Sizes
-  &.small, &.medium, &.large &.db-card_index{
+  &.small, &.medium, &.large, &.db-card_index{
     position: relative;
 
     .card-image {
@@ -66,7 +66,7 @@
 
   // Horizontal Cards
   &.horizontal {
-    &.small, &.medium, &.large &.db-card__index{
+    &.small, &.medium, &.large, &.db-card__index{
       .card-image {
         height: 100%;
         max-height: none;

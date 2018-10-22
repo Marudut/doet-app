@@ -4218,17 +4218,17 @@ small {
     font-weight: 300; }
     .card .card-title.activator {
       cursor: pointer; }
-  .card.small, .card.medium, .card.large .card.db-card_index {
+  .card.small, .card.medium, .card.large, .card.db-card_index {
     position: relative; }
-    .card.small .card-image, .card.medium .card-image, .card.large .card.db-card_index .card-image {
+    .card.small .card-image, .card.medium .card-image, .card.large .card-image, .card.db-card_index .card-image {
       max-height: 60%;
       overflow: hidden; }
-    .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card.db-card_index .card-image + .card-content {
+    .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content, .card.db-card_index .card-image + .card-content {
       max-height: 40%; }
-    .card.small .card-content, .card.medium .card-content, .card.large .card.db-card_index .card-content {
+    .card.small .card-content, .card.medium .card-content, .card.large .card-content, .card.db-card_index .card-content {
       max-height: 100%;
       overflow: hidden; }
-    .card.small .card-action, .card.medium .card-action, .card.large .card.db-card_index .card-action {
+    .card.small .card-action, .card.medium .card-action, .card.large .card-action, .card.db-card_index .card-action {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -4245,11 +4245,11 @@ small {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card.horizontal.db-card__index .card-image {
+    .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image, .card.horizontal.db-card__index .card-image {
       height: 100%;
       max-height: none;
       overflow: visible; }
-      .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card.horizontal.db-card__index .card-image img {
+      .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img, .card.horizontal.db-card__index .card-image img {
         height: 100%; }
     .card.horizontal .card-image {
       max-width: 50%; }
