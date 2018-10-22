@@ -3,39 +3,9 @@ $browser-context: 14; // Default
 @function em($pixels, $context: $browser-context) {
   @return #{$pixels/$context}em;
 }
-
-
-.db-blog.brand-logo{
-  padding-left: 10px;
-
-  & span a {
-    color: white;
-  }
+body .db-blog {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 
 
-
-@charset "UTF-8";
-
-// Color
-@import "components/color-variables";
-@import "components/color-classes";
-
-// Variables;
-@import "components/variables";
-
-// Reset
-@import "components/normalize";
-
-@import "components/global";
-@import "components/buttons";
-@import "components/icons-material-design";
-@import "components/materialbox";
-@import "components/grid";
-@import "components/navbar";
-@import "components/normalize";
-@import "components/typography";
-@import "components/transitions";
-@import "components/cards";
-@import "components/typography";
-@import "components/forms/forms";
+@import "material-design-lite";
