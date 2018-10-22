@@ -58,38 +58,83 @@
     </style>
   </head>
   <body>
-      <div class="db-blog mdl-layout mdl-js-layout mdl-layout--fixed-header">
-          <header class="mdl-layout__header">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class=" mdl-layout__header mdl-layout--no-drawer-button">
+            <!-- Top row, always visible -->
             <div class="mdl-layout__header-row">
               <!-- Title -->
               <span class="mdl-layout-title">Title</span>
-              <!-- Add spacer, to align navigation to the right -->
               <div class="mdl-layout-spacer"></div>
-              <!-- Navigation. We hide it in small screens. -->
-              <nav class="mdl-navigation mdl-layout--large-screen-only">
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-              </nav>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                          mdl-textfield--floating-label mdl-textfield--align-right">
+                <label class="mdl-button mdl-js-button mdl-button--icon"
+                       for="waterfall-exp">
+                  <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                  <input class="mdl-textfield__input" type="text" name="sample"
+                         id="waterfall-exp">
+                </div>
+              </div>
             </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
+                <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
+                <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
+                <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
+                <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+              </div>
           </header>
-          <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">Title</span>
-            <nav class="mdl-navigation">
-              <a class="mdl-navigation__link" href="">Link</a>
-              <a class="mdl-navigation__link" href="">Link</a>
-              <a class="mdl-navigation__link" href="">Link</a>
-              <a class="mdl-navigation__link" href="">Link</a>
-            </nav>
+        </div>
+        <div class="mdl-layout mdl-js-layout">
+        <main class="mdl-content">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--8-col">
+          <div class="mdl-card mdl-shadow--4dp">
+              <div class="db-blog mdl-card__media"><img src="img/1.jpg" alt="">
+              </div>
+              <div class="mdl-card__supporting-text">
+                Auckland Sky Tower, taken March 24th, 2014
+              </div>
+              <div class="mdl-card__supporting-text">
+              The Sky Tower is an observation and telecommunications tower located in Auckland,
+              New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+              in the Southern Hemisphere.
+              </div>
+            </div>
           </div>
-          <main class="mdl-layout__content">
-            <div class="mdl-grid">
-              <div class=""></div>
-            </div>           
-          </main>
+          <div class="mdl-cell mdl-cell--4-col">
+              <div class="mdl-card mdl-shadow--4dp">
+                  <div class="db-blog mdl-card__media"><img src="img/1.jpg" alt="">
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    Auckland Sky Tower, taken March 24th, 2014
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                  The Sky Tower is an observation and telecommunications tower located in Auckland,
+                  New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+                  in the Southern Hemisphere.
+                  </div>
+                </div>
+              </div>
+              <div class="mdl-card mdl-shadow--4dp">
+                  <div class="db-blog mdl-card__media"><img src="img/1.jpg" alt="">
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                    Auckland Sky Tower, taken March 24th, 2014
+                  </div>
+                  <div class="mdl-card__supporting-text">
+                  The Sky Tower is an observation and telecommunications tower located in Auckland,
+                  New Zealand. It is 328 metres (1,076 ft) tall, making it the tallest man-made structure
+                  in the Southern Hemisphere.
+                  </div>
+                </div>
+              </div>
+          
+          </div>
+        </main>
       </div>
-
     <a href="#" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--white">View Source</a>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>

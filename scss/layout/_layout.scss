@@ -21,8 +21,9 @@
 // this to its own component.
 .mdl-navigation {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: initial;
   box-sizing: border-box;
+
 }
 
 .mdl-navigation__link {

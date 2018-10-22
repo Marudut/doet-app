@@ -1,10 +1,18 @@
 $browser-context: 14; // Default
-
+@import "variables";
 @function em($pixels, $context: $browser-context) {
   @return #{$pixels/$context}em;
 }
 body .db-blog {
   font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+.db-blog.mdl-card {
+  width: 100%;
+}
+.db-blog.mdl-card__media > img {
+  width: 0%;
+  height: 150px;
 }
 
 
